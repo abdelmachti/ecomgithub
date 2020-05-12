@@ -1,0 +1,114 @@
+[
+{
+    "model": "products.product",
+    "pk": 1,
+    "fields": {
+        "title": "T-shirt",
+        "slug": "t-shirt",
+        "description": "it is good",
+        "price": "39.99",
+        "image": "products/tshirt.PNG",
+        "featured": false,
+        "active": true,
+        "timestamp": "2020-03-25T12:43:31.779Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 2,
+    "fields": {
+        "title": "Hose",
+        "slug": "abcrt",
+        "description": "this is good",
+        "price": "39.99",
+        "image": "products/Hose.PNG",
+        "featured": false,
+        "active": true,
+        "timestamp": "2020-03-25T12:43:31.779Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 3,
+    "fields": {
+        "title": "Pants",
+        "slug": "abcre",
+        "description": "they are so good",
+        "price": "9.99",
+        "image": "products/Pants.PNG",
+        "featured": false,
+        "active": true,
+        "timestamp": "2020-03-25T12:43:31.779Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 4,
+    "fields": {
+        "title": "Pullover",
+        "slug": "abce",
+        "description": "the best mark this year",
+        "price": "29.99",
+        "image": "products/Pullover.PNG",
+        "featured": false,
+        "active": true,
+        "timestamp": "2020-03-25T12:43:31.779Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 5,
+    "fields": {
+        "title": "String",
+        "slug": "abcr",
+        "description": "this is the best quality",
+        "price": "11.99",
+        "image": "products/string.PNG",
+        "featured": false,
+        "active": true,
+        "timestamp": "2020-03-25T12:43:31.779Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 6,
+    "fields": {
+        "title": "shoes",
+        "slug": "abcee",
+        "description": "the best shoes in world",
+        "price": "39.99",
+        "image": "products/shoes.PNG",
+        "featured": true,
+        "active": true,
+        "timestamp": "2020-03-25T12:43:31.779Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 7,
+    "fields": {
+        "title": "Short",
+        "slug": "short",
+        "description": "the best short this summer",
+        "price": "39.99",
+        "image": "products/short.PNG",
+        "featured": true,
+        "active": true,
+        "timestamp": "2020-03-25T12:43:31.779Z"
+    }
+},
+{
+    "model": "products.product",
+    "pk": 8,
+    "fields": {
+        "title": "T-shirt",
+        "slug": "t-shirt-ijg6",
+        "description": "ghhghgljal",
+        "price": "39.99",
+        "image": "products/t-shirt.PNG",
+        "featured": true,
+        "active": true,
+        "timestamp": "2020-03-25T12:43:31.779Z"
+    }
+}
+]

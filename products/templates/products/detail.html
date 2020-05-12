@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+
+{% block content %}
+
+    <div class="row justify-content-center">
+        <div class="col-12 col-sm-12 col-md-12 col-lg-12 mr-auto ml-auto px-5">
+            <h1>{{object.title |upper}}</h1>
+            {{object.timestamp | timesince}} ago </br>
+            {{object.description}}</br>
+            {{object.price}}</br>
+            {{object.quantity}}
+            {% if object.image %}
+            <img src='{{object.image.url}}'  class="img-fluid"/>
+            {% endif %}
+        </div>
+        <div>
+            {% include 'products/snippets/update-cart.html' with product=object cart=cart in_cart=False %}
+        </div>
+    </div>
+{% endblock %}

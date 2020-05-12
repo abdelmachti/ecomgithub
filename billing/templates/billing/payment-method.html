@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+<!-- Stripe Form -->
+
+
+
+<div class="stripe-payment-form" data-token="{{publish_key}}" data-next-url="{% if next_url %}{{next_url}}{% endif %}"
+data-btn-title="Add new Card">
+
+</div>
+
+
+{% endblock %}  
+
