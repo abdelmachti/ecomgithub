@@ -36,7 +36,7 @@ from .views import (home_page,
                     #regist
                     #er_page
                     )
-#from marketing.views import MarketingPreferenceUpdateView, MailchimpWebhookView
+from marketing.views import MarketingPreferenceUpdateView, MailchimpWebhookView
 
 """ from products.views import ( ProductListView, 
                              Product_list_view, 
@@ -65,8 +65,8 @@ urlpatterns = [
     url(r'^billing/payment-method/$', payment_method_view, name="billing-payment-method"),
     url(r'^billing/payment-method/create/$', payment_method_createview, name="billing-payment-method-endpoint"),
     url(r'^search/', include(("search.urls", 'search'), namespace='search')),
-    #url(r'^settings/email/', MarketingPreferenceUpdateView.as_view(), name='marketing-pref'),
-    #url(r'^webhooks/mailchimp/', MailchimpWebhookView.as_view(), name='webhooks-mailchimp'),
+    url(r'^settings/email/', MarketingPreferenceUpdateView.as_view(), name='marketing-pref'),
+    url(r'^webhooks/mailchimp/', MailchimpWebhookView.as_view(), name='webhooks-mailchimp'),
     #url(r'^featured/$', ProductFeaturedListView.as_view()),
     #url(r'^featured/(?P<pk>\d+)/$', ProductFeaturedDetailView.as_view()),
     #url(r'^products/$', ProductListView.as_view()),
